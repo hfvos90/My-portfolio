@@ -55,9 +55,10 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
+      width: 270px;
+      height: 270px;
       background: url("../img/portrait.jpeg");
+      background-position: center;
       border-radius: 50%;
       border: solid 3px #f7c331;
       position: relative; }
