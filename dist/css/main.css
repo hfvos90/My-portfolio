@@ -15,12 +15,12 @@
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
-      background-color: #f7c331; }
+      background-color: blue; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px);
-      background-color: #f7c331; }
+      background-color: blue; }
 
 .menu {
   position: fixed;
@@ -60,7 +60,7 @@
       background: url("portrait.jpeg");
       background-position: center;
       border-radius: 50%;
-      border: solid 3px #f7c331;
+      border: solid 3px blue;
       position: relative; }
   .menu .nav-item.show {
     transform: translate3d(0, 0, 0); }
@@ -72,7 +72,7 @@
       .menu .nav-item.show a {
         padding: 0.4rem; }
         .menu .nav-item.show a:hover {
-          color: #f7c331;
+          color: blue;
           transition: all 0.5s ease-out; }
   .menu .nav-link {
     display: inline-block;
@@ -135,7 +135,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(background.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
   body:after {
@@ -174,7 +174,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f7c331; }
+  color: blue; }
 
 main {
   padding: 4rem;
@@ -184,7 +184,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #f7c331;
+        color: blue;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
