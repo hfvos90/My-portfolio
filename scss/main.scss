@@ -72,3 +72,10 @@ main {
     }
   }
 }
+
+.bio {
+  span {
+    color: $secondary-color;
+    text-decoration: underline;
+  }
+}

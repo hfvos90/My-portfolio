@@ -190,3 +190,7 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.bio span {
+  color: #f7c331;
+  text-decoration: underline; }
