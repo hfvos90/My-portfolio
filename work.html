@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="/css/toogleCss.css" />
 
-    <title>Welcome To My Portfolio</title>
+    <title>View my work</title>
   </head>
 
-  <body id="bg-img">
+  <body>
     <div class="overlay"></div>
     <header>
       <div class="menu-btn">
@@ -30,14 +30,14 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item current">
+          <li class="nav-item">
             <a href="/" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a href="about.html" class="nav-link">About me</a>
           </li>
-          <li class="nav-item">
-            <a href="/work.html" class="nav-link">Work</a>
+          <li class="nav-item work">
+            <a href="/work.html" class="nav-link">My Work</a>
           </li>
           <li class="nav-item">
             <a href="/contact.html" class="nav-link">How to reach me</a>
@@ -46,23 +46,29 @@
       </nav>
     </header>
 
-    <main id="home">
+    <main id="work">
       <h1 class="lg-heading">
-        Hans
-        <span class="text-secondary">Vos</span>
+        My work
+        <span class="text-secondary">Work</span>
       </h1>
       <h2 class="sm-heading">
-        Web Developer and Facebook ad specialist
+        Check out some of my projects...
       </h2>
-      <div class="icons">
-        <a href="https://github.com/hfvos90" target="_blank">
-          <i class="fab fa-github fa-3x icon"></i>
-        </a>
-        <a href="https://linkedin.com" target="_blank">
-          <i class="fab fa-linkedin fa-3x icon"></i>
-        </a>
+
+      <div class="projects">
+        <div class="item">
+          <a href="#!">
+            <img src="react.png" alt="Project" />
+          </a>
+          <a href="#" class="btn-light"> <i class="fas fa-eye"></i>Project </a>
+          <a href="#" class="btn-dark"> <i class="fas fa-github"></i>Github </a>
+        </div>
       </div>
     </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019
+    </footer>
 
     <script src="js/main.js"></script>
   </body>
